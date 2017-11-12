@@ -1,0 +1,105 @@
+.header{
+	max-width: 100%;
+	margin: auto;
+}
+
+.harry-potter-logo{
+	padding-top: 40px;
+	display: block;
+	margin: auto;
+	max-width: 800px;
+	text-align: center;
+	position: relative;
+}
+
+.harry-potter-glasses{
+	max-width: 200px;
+	display: block;
+	margin: auto;
+
+}
+
+.wrapper{
+	margin-top: 30px;
+}
+
+.container{
+	background-color: black;
+	color: white;
+	text-align: center;
+	max-width: 960px;
+	border: solid #eeba30 8px;
+	padding: 10px;
+}
+
+h1{ text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+	color: #740001;
+
+}
+
+.text-center{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h2{
+	margin-top: 30px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #eeba30;
+    padding-bottom: 10px;
+}
+
+h3{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+p{
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+}
+
+/*letterButtons*/
+#letterButtonContainer li {
+  display: inline-block;
+  border: white 1px solid;
+  border-radius: 3px;
+  margin: 5px;
+  font-size: 24px;
+  line-height: 2;
+  width: 50px;
+  text-align: center;
+}
+
+#letterButtonContainer li:hover {
+  background: rgba(255,255,255, 0.5);
+  cursor: pointer;
+}
+
+#letterButtonContainer li.alreadychosen {
+  pointer-events: none;
+  background: rgba(255,255,255, 0.8);
+}
+
+#displayWord {
+  margin-bottom: 40px;
+  display: block;
+  padding: 0;
+  display:block;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#displayWord li {
+  position: relative;
+  list-style: none;
+  margin-top: 30px;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}

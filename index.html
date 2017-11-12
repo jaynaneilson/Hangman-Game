@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang= "en-us">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Harry Potter Hangman</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+ 
+	<div class="wrapper">
+
+	 	<div class="header"> 	
+	 		<img src="assets/images/HPlogo.png" alt="Harry Potter Logo" class="harry-potter-logo">
+	 	</div>
+
+		<h1>Hangman</h1>
+
+		<div class="text-center">
+	        <button class="btn btn-default btn-s play-button"><span class="glyphicon glyphicon-play"></span> Felix Felicis</button>
+	        <button class="btn btn-default btn-s pause-button"><span class="glyphicon glyphicon-pause"></span> Pause Song</button>
+		</div>
+	     
+
+		<div class="container">
+
+			<div class="game-content">
+
+				<h2>PRESS ANY KEY TO GET STARTED!</h2>
+
+				<hr>
+
+				<h3>Wins:</h3>
+
+				<p id="counter"></p>
+
+				<h3># of Guesses Remaining:</h3>
+
+				<p id="guesses"></p>
+
+				<h3>Current Word:</h3>
+
+				<p id="currentWord"></p>
+
+				<ul id="letterButtonContainer"></ul>
+
+		
+			</div>
+
+		</div>
+
+		<div class="glasses">
+			<img src="assets/images/HPglasses.png" alt="Harry Potter Glasses" class="harry-potter-glasses">
+		</div>
+
+		<div><p class="footer-font">Copyright &copy; 2017 Jayna Neilson</p></div>
+
+	</div>
+
+</body>
+</html>
